@@ -14,9 +14,13 @@ const Calculadora = () => {
 
   const calcularResultado = () => {
     try {
-      const resultado = eval(input);
-      setResultado(resultado.toString());
-    } catch (error) {
+      if (input.includes('/0')) {
+        setResultado('Syntax Error');
+      } else {
+        const resultado = eval(input);
+        setResultado(resultado.toString());
+      }
+    } catch (e) {
       setResultado('Syntax Error');
     }
   };
