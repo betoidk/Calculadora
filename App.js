@@ -111,7 +111,6 @@ const styles = StyleSheet.create({
   },
   inputText: {
     fontSize: 24,
-    color: '#000',
   },
   resultadoText: {
     fontSize: 32,
@@ -126,13 +125,11 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
   },
   button: {
-    flexBasis: 'auto',
-    width: 80,
-    height: 80,
-    borderRadius: 15,
-    marginVertical: 5,
-    marginHorizontal: 1,
+    flexBasis: '22%',
+    marginVertical: 10,
     justifyContent: 'center',
+    alignItems: 'center',
+    paddingVertical: 20,
   },
   lightGrayButton: {
     backgroundColor: '#d1d1d1',
@@ -148,6 +145,7 @@ const styles = StyleSheet.create({
   XtraFontSize: {
     fontSize: 20,
     fontWeight: 'bold',
+    color: '#000'
   },
 });
 
