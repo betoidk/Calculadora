@@ -4,8 +4,8 @@ Esta es una aplicación de calculadora simple desarrollada en React Native. La a
 
 ## Características
 
-- Suma, resta, multiplicación y división de dos números.
-- Validación para evitar la división por cero.
+- Suma, resta, multiplicación y división de dos números o más.
+
 - Interfaz de usuario mejorada visualmente.
 
 ## Requisitos
@@ -34,6 +34,6 @@ Esta es una aplicación de calculadora simple desarrollada en React Native. La a
 
 ## Uso
 
-1. Ingresa dos números en los campos correspondientes.
+1. Ingresa la operación que quieras desarrollar.
 2. Presiona el botón de la operación que deseas realizar.
 3. El resultado se mostrará en la parte inferior de la pantalla.
