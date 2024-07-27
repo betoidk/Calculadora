@@ -17,7 +17,7 @@ Esta es una aplicación de calculadora simple desarrollada en React Native. La a
 1. Clona este repositorio:
    ```bash
    git clone https://github.com/betoidk/Calculadora.git
-   cd calculadora-react-native
+   cd Calculadora
    ```
 
 2. Instala las dependencias del proyecto:
