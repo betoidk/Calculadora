@@ -48,9 +48,9 @@ const Calculadora = () => {
         <Text style={styles.title}>Calculadora</Text>
         <View style={styles.displayContainer}>
           <TextInput
-            mode='flat'
+            mode='outlined'
             value={input}
-            style={styles.inputText}
+            style={styles.displayContainer}
             editable={false}
           />
           <Text style={styles.resultadoText}>{resultado}</Text>
@@ -103,6 +103,8 @@ const styles = StyleSheet.create({
   },
   displayContainer: {
     backgroundColor: '#fff',
+    fontSize: 24,
+    fontWeight: 'regular',
     padding: 15,
     borderRadius: 10,
     marginBottom: 10,
@@ -124,9 +126,12 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
   },
   button: {
-    width: '23%',
-    aspectRatio: 1,
-    marginVertical: 10,
+    flexBasis: 'auto',
+    width: 80,
+    height: 80,
+    borderRadius: 15,
+    marginVertical: 5,
+    marginHorizontal: 1,
     justifyContent: 'center',
   },
   lightGrayButton: {
@@ -137,11 +142,11 @@ const styles = StyleSheet.create({
   },
   lightGrayButtonText: {
     color: '#000',
-    fontSize: 14,
+    fontSize: 18,
     fontWeight: 'regular',
   },
   XtraFontSize: {
-    fontSize: 18,
+    fontSize: 20,
     fontWeight: 'bold',
   },
 });
